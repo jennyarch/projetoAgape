@@ -1,0 +1,161 @@
+
+/*Estilo tela Login*/
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ input {
+    display: block;
+    margin: 10px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #191970;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.banner_agape {
+    width: 70vw;
+    padding: 20px;
+}
+.banner {
+    height: 100%;
+    width: 60vw;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    padding: 10px;
+    background-color: #DCDCDC;
+    margin: 20px 20px 20px -5px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 20px 10px 20px 10px;
+}
+.logo img {
+    width: 150px;
+}
+.logo p {
+    font-size: 0.8rem;
+    margin-top: 0.10px;
+    
+}
+.formulario {
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;   text-align:left;
+}
+
+
+.usuario {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 10px 10px;
+    
+    
+}
+.usuario input {
+    width: 80%;
+    height: 20px;
+    border: blue solid 1px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+.usuario label {
+    text-align: left;
+    position: relative;
+    margin-left: 10px;
+}
+.senha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 10px 10px;
+}
+.senha input {
+    width: 80%;
+    height: 20px;
+    border: blue solid 1px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+.senha label {
+    text-align: left;
+    position: relative;
+    margin-left: 10px;
+}
+.check {
+    display: flex;
+    flex-direction: row;
+}
+.check label {
+    margin-top: 7px;
+}
+.check input {
+    color:#27408B;
+}
+.buttons{
+    margin: 50px 0px 20px 0px;
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.acessar{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    
+    margin: 5px;
+    border-radius: 2px;
+    background-color:	#436EEE;
+    color: white;
+    border:none;
+}
+.acessar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cancelar{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    
+    border-radius: 2px;
+    margin: 5px;
+    border-radius: 2px;
+    background-color:	#436EEE;
+    color: white;
+    border:none;
+}
+.cancelar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+}
